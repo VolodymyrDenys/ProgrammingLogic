@@ -1,0 +1,48 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  color: #2a4d69;
+}
+
+/* Paragraph Styling */
+p {
+  padding: 10px;
+  color: #333333;
+}
+
+/* List Styling */
+ul {
+  list-style-type: square;
+}
+
+ul li {
+  color: #556b2f;
+}
+
+ul li::marker {
+  color: #556b2f;
+}
+
+/* Link Styling */
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Box Styling */
+.styled-box {
+  padding: 15px;
+  text-align: center;
+  border: 2px solid #666;
+  background-color: #e0e0e0;
+}
